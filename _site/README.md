@@ -1,10 +1,6 @@
-# 이력서
 
-* [템플릿](https://github.com/sproogen/modern-resume-theme)
+zhsks311.github.io/about
 
-## 구동방법
-
-```bash
-bundle install
+로컬 실행 <br/>
+bundle install<br/>
 bundle exec jekyll serve
-```
