@@ -1,4 +1,4 @@
-- layout: left
+- layout: job_left
   company: 십일번가
   link: https://www.11st.co.kr
   job_title: Java 백엔드 개발자
@@ -10,7 +10,7 @@
     * 테스트 코드 & 코드리뷰 & 아키텍처 개선 등 개발환경 개선
     * 성과를 통한 예정 보다 빠른 <mark>CTO</mark> 진급
     * dfdfsasd
-- layout: left
+- layout: job_left
   company: 우아한형제들
   link: https://www.woowahan.com/
   job_title: Java & Spring 백엔드 개발자

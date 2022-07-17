@@ -1,0 +1,6 @@
+<div class="container education-container">
+  <h3>{{ site.patents | default: "Patents" }}</h3>
+  {% for patents in site.data.patents %}
+    {% include {{ patents.layout | default: 'patents_left' | append: ".html" }} item=patents %}
+  {% endfor %}
+</div>
