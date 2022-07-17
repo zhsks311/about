@@ -28,5 +28,9 @@
       <h4 id="job">업무</h4>
       {{ include.item.job_description | strip | markdownify }}
     {%- endif -%}
+    {%- if include.item.job_description -%}
+      <h4 id="contributions">기여</h4>
+      {{ include.item.contributions | strip | markdownify }}
+    {%- endif -%}
   </div>
 </div>
