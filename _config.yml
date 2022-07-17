@@ -1,140 +1,65 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
-
-# Content configuration version
-version: 2
+repository: zhsks311/zhsks311.github.io
+# favicon: images/favicon.ico
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
-
-# Dark Mode (true/false/never)
-darkmode: false
+name: 김재휘
+title: Java  백엔드 엔지니어
+email: zhsks311@gmail.com
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
-
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+# twitter_username: jojoldu
+github_username: jojoldu
+# dribbble_username: jekyll
+facebook_username: jojoldu
+# flickr_username: jekyll
+# linkedin_username: jojoldu
+# pinterest_username: jekyll
+# youtube_username: globalmtb
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+# about_title: About Me
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Java & Spring / NodeJS & TypeScript, AWS 기반의 8년차 백엔드 개발자로
+  **누적 학습수 1500만건**의 에듀테크, **MAU 1,300만/일 주문 300만 커머스**, **일 PV 2,000만 포탈** 등의 서비스에서 API/Batch 개발 및 AWS 인프라 구축 등을 해왔습니다.<br/>
+  현재는 팀 내 <mark>개발 리더</mark>로 채용, 프로젝트 코어 구현, 파트 매니징, 설계 등을 주요 업무로 하고 있습니다.<br/>
+  개인이 하고 싶은 일 보다는 <mark>회사와 팀에 도움이 되는</mark> 개발을 해야한다는 생각에
+  xtrabackup, pt-online-schema-change, MHA를 활용한 MySQL 운영, Ansible을 이용한 IDC 인프라 운영을 해오기도 했습니다.<br/>
+  <mark>테스트 코드</mark> 작성을 당연하게 생각하여 전 직장 시스템의 경우 2500개의 테스트 케이스가 하루에도 수십번 수행되기도 했습니다.
+  현재는 팀의 비지니스 속도와 기술 부채를 조율하면서 서비스 성장을 지원하고 있습니다.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+# Projects Section
+# projects_title: Projects
 
-content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+# Experience Section
+# experience_title: Experience
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  여러 주제로 발표와 기고, 출판을 해왔습니다.
+   - [우아콘2020 - 수십억건에서 Querydsl 사용하기](https://www.youtube.com/watch?v=zMAX7g6rO_Y)
+   - [스프링 부트와 AWS로 혼자 구현하는 웹 서비스](https://jojoldu.tistory.com/463)
+   - [EO 인터뷰](https://www.youtube.com/watch?v=V9AGvwPmnZU&t=2s)
+   - [2019 우아한 스프링 배치](https://www.youtube.com/watch?v=_nkJkWVH-mo&t=14s)
+   - [인프런 - IntelliJ IDEA 가이드](https://www.inflearn.com/course/intellij-guide)
+   - [2018 KCD - IntelliJ IDEA만으로 개발하기](https://www.youtube.com/watch?v=wBXSUdT1jX0)
+   - [2018 JetBrains Day - Upsource를 이용한 코드리뷰](https://www.youtube.com/watch?v=06bJt6CnRAU&feature=youtu.be)
+   - [마소 394호 - AWS EC2와 TravisCI를 활용한 무중단 배포 서비스](http://it.chosun.com/site/data/html_dir/2018/10/29/2018102900482.html)
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+  - jekyll-seo-tag

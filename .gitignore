@@ -1,6 +1,2 @@
-*.gem
-.bundle
-.sass-cache
-_site
-*.code-workspace
-vendor
+# Created by .ignore support plugin (hsz.mobi)
+.idea
