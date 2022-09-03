@@ -12,7 +12,7 @@
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Java 백엔드 엔지니어" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/","headline":"Java 백엔드 엔지니어","name":"Java 백엔드 엔지니어","@type":"WebSite","@context":"https://schema.org"}</script>
+{"name":"Java 백엔드 엔지니어","headline":"Java 백엔드 엔지니어","@type":"WebSite","url":"http://localhost:4000/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
     <link rel="shortcut icon" type="image/x-icon" href="">
@@ -51,15 +51,14 @@ Spring Boot로 백엔드 개발을 하고 있습니다. <br />
     </div>
   </div><div class="container experience-container">
   <h3>Experience</h3>
-  
-    <div class="row clearfix layout layout-left">
+   <div class="row clearfix layout layout-left">
   <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>십일번가</h4>
 <a href="https://www.11st.co.kr" target="_blank" class="link">https://www.11st.co.kr</a><p><b>Java 백엔드 개발자</b></p><p>2019.05 ~ 현재</p></div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 id="job">업무</h4>
       <ul>
   <li>11번가 모바일/PC 페이지의 상품 전시를 위해 프론트엔드에 제공하는 External API 개발</li>
   <li>사내 서버를 위한 전시 관련 Internal API 개발</li>
-  <li>레거시 페이지 신규 프로젝트로 이관</li>
+  <li>레거시 페이지 MSA 기반 신규 프로젝트로 이관</li>
   <li>테스트 코드 &amp; 코드리뷰 &amp; 아키텍처 개선 등 개발환경 개선</li>
   <li>전시 서비스 장애 모니터링 및 이슈 대응</li>
   <li>동영상 대용량 처리를 위한 배치 서비스 개발 및 운영</li>
@@ -70,13 +69,11 @@ Spring Boot로 백엔드 개발을 하고 있습니다. <br />
   <li>주기적으로 개편되는 사항에 대해 대응하는 팀원들의 리소스 낭비를 막을 수 있는 구조 개발 및 수정</li>
   <li>레거시 프로젝트를 줄여 유지보수성 개선</li>
   <li>모니터링에 적극 참여하고 장애 대응용 어플리케이션을 개발하여 이슈로 인한 손실을 최소화</li>
-  <li>레거시 배치 운영 당시 대비 100배 이상의 영상 업로드 처리하는 배치 서비스 개발 및 운영</li>
+  <li>레거시 배치 대비 시간당 100배 이상의 영상 업로드 처리하는 배치 서비스 개발 및 운영</li>
 </ul>
 </div>
 </div>
-
-  
-    <div class="row clearfix layout layout-left">
+  <div class="row clearfix layout layout-left">
   <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>삼성전자</h4><p><b>Dram 데이터 엔지니어</b></p><p>2017.08 ~ 2019.05</p></div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 id="job">업무</h4>
       <ul>
@@ -91,8 +88,76 @@ Spring Boot로 백엔드 개발을 하고 있습니다. <br />
 </ul>
 </div>
 </div>
+ 
+</div>
+<div class="container projects-container">
+  <h3>Projects</h3>
+   <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4 id="company">십일번가</h4></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 id="project_title">
+      아마존 스토어 전시 서비스 개발 및 개선<p class="text-muted">2021.02 ~</p></h4><ul>
+  <li>아마존 상품 전시를 위한 API 개발</li>
+  <li>전시 프레임워크에 기존 코드보다 DDD를 적극 반영한 새로운 구조 적용</li>
+  <li>아마존 상품 동영상 재생 기능 개발</li>
+  <li>성능 개선을 위해 페이징, 비동기 호출 등 적용</li>
+  <li>아마존 리뷰를 위한 공통 코드 추가</li>
+</ul>
 
-  
+  </div>
+</div>
+  <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 id="project_title">
+      할인모음가 코드 추가<p class="text-muted">2021.02 ~ 2021.03</p></h4><ul>
+  <li>십일번가 인입 시 인입 채널에 따라 적절한 할인율 제공하기 위한 작업 진행</li>
+  <li>할인율 관련 필드를 전시 프로젝트에 추가</li>
+  <li>전시 서비스 플랫폼에 파편화 되어 있던 정보를 모아 접근자 정보를 객체화</li>
+</ul>
+
+  </div>
+</div>
+  <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 id="project_title">
+      대카테고리 페이지 개편<p class="text-muted">2020.09 ~ 2021.01</p></h4><ul>
+  <li>카테고리 번호 별로 페이지가 나눠져 있어 카테고리 구조 개편 시마다 대응해 모든 페이지 수정 하던 것을 하나의 공통 페이지로 합친 작업</li>
+  <li>레거시 프로젝트에 있던 서비스를 MSA 기반 전시 프로젝트로 이관</li>
+  <li>사용자에게 불필요한 정보가 담긴 URL을 감추기 위해 Preload 개념 도입(차후 기능이 확대 되어 모바일 전반에 사용)</li>
+</ul>
+
+  </div>
+</div>
+  <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 id="project_title">
+      PC 개편<p class="text-muted">2020.06 ~ 2020.08</p></h4><ul>
+  <li>카테고리 번호 별로 페이지가 나눠져 있어 카테고리 구조 개편 시마다 대응해 모든 페이지 수정 하던 것을 하나의 공통 페이지로 합친 작업</li>
+  <li>레거시 프로젝트에 있던 서비스를 MSA 기반 전시 프로젝트로 이관</li>
+</ul>
+
+  </div>
+</div>
+  <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 id="project_title">
+      G타입<p class="text-muted">2020.02 ~ 2020.06</p></h4><ul>
+  <li>카테고리 번호 별로 페이지가 나눠져 있어 카테고리 구조 개편 시마다 대응해 모든 페이지 수정 하던 것을 하나의 공통 페이지로 합친 작업</li>
+  <li>레거시 프로젝트에 있던 서비스를 MSA 기반 전시 프로젝트로 이관</li>
+</ul>
+
+  </div>
+</div>
+  <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 id="project_title">
+      동영상 배치 개편<p class="text-muted">2019.07 ~ 2020.01</p></h4><ul>
+  <li>카테고리 번호 별로 페이지가 나눠져 있어 카테고리 구조 개편 시마다 대응해 모든 페이지 수정 하던 것을 하나의 공통 페이지로 합친 작업</li>
+  <li>레거시 프로젝트에 있던 서비스를 MSA 기반 전시 프로젝트로 이관</li>
+</ul>
+
+  </div>
+</div>
+ 
 </div>
 <div class="container education-container">
     <h3>Skill</h3>
@@ -103,7 +168,7 @@ Spring Boot로 백엔드 개발을 하고 있습니다. <br />
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><ul>
   <li>Java</li>
   <li>Spring Boot, Spring Batch, Spring Cloud</li>
-  <li>JPA, Querydsl, Hibernate,  Caffeine (in-memory cache)</li>
+  <li>JPA, Hibernate,  Caffeine (in-memory cache)</li>
   <li>Junit4/5, Mockito</li>
   <li>Gradle</li>
   <li>IntelliJ, Visual Studio Code</li>

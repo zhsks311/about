@@ -1,0 +1,16 @@
+<div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+    {%- if include.item.company -%}
+    <h4 id="company">{{ include.item.company }}</h4>
+    {%- endif -%}
+  </div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+    {%- if include.item.title -%}
+    <h4 id="project_title">
+      {{ include.item.title }} {%- if include.item.dates -%}
+      <p class="text-muted">{{ include.item.dates }}</p>
+      {%- endif -%}
+    </h4>
+    {%- endif -%} {{ include.item.description | strip | markdownify }}
+  </div>
+</div>

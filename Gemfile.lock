@@ -245,19 +245,24 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.8)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2022.3)
+      tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
+    wdm (0.1.1)
     webrick (1.7.0)
     zeitwerk (2.4.2)
 
 PLATFORMS
   ruby
+  x64-mingw-ucrt
 
 DEPENDENCIES
   github-pages
   tzinfo-data
+  wdm (~> 0.1.0)
   webrick (~> 1.7)
 
 BUNDLED WITH

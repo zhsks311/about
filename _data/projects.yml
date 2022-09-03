@@ -1,7 +1,41 @@
-- layout: left
-  name: 도어락제어시스템 및 그 방법
-  dates: 2018.10.23
-  link: https://doi.org/10.8080/1020160156883
+- dates: 2021.02 ~
+  company: 십일번가
+  title: 아마존 스토어 전시 서비스 개발 및 개선
   description: | # this will include new lines to allow paragraphs
-    * 사물인터넷 기술을 기반으로 보다 스마트한 기능을 제공할 수 있도록 도어락을 제어함으로써
-    보안성을 향상시키면서도 차별화된 기능을 제공하는 도어락제어시스템 및 그 방법을 제안
+    * 아마존 상품 전시를 위한 API 개발
+    * 전시 프레임워크에 기존 코드보다 DDD를 적극 반영한 새로운 구조 적용
+    * 아마존 상품 동영상 재생 기능 개발
+    * 성능 개선을 위해 페이징, 비동기 호출 등 적용
+    * 아마존 리뷰를 위한 공통 코드 추가
+
+- dates: 2021.02 ~ 2021.03
+  title: 할인모음가 코드 추가
+  description: | # this will include new lines to allow paragraphs
+    * 십일번가 인입 시 인입 채널에 따라 적절한 할인율 제공하기 위한 작업 진행
+    * 할인율 관련 필드를 전시 프로젝트에 추가
+    * 전시 서비스 플랫폼에 파편화 되어 있던 정보를 모아 접근자 정보를 객체화
+
+- dates: 2020.09 ~ 2021.01
+  title: 대카테고리 페이지 개편
+  description: | # this will include new lines to allow paragraphs
+    * 카테고리 번호 별로 페이지가 나눠져 있어 카테고리 구조 개편 시마다 대응해 모든 페이지 수정 하던 것을 하나의 공통 페이지로 합친 작업
+    * 레거시 프로젝트에 있던 서비스를 MSA 기반 전시 프로젝트로 이관
+    * 사용자에게 불필요한 정보가 담긴 URL을 감추기 위해 Preload 개념 도입(차후 기능이 확대 되어 모바일 전반에 사용)
+
+- dates: 2020.06 ~ 2020.08
+  title: PC 개편
+  description: | # this will include new lines to allow paragraphs
+    * 카테고리 번호 별로 페이지가 나눠져 있어 카테고리 구조 개편 시마다 대응해 모든 페이지 수정 하던 것을 하나의 공통 페이지로 합친 작업
+    * 레거시 프로젝트에 있던 서비스를 MSA 기반 전시 프로젝트로 이관
+
+- dates: 2020.02 ~ 2020.06
+  title: G타입
+  description: | # this will include new lines to allow paragraphs
+    * 카테고리 번호 별로 페이지가 나눠져 있어 카테고리 구조 개편 시마다 대응해 모든 페이지 수정 하던 것을 하나의 공통 페이지로 합친 작업
+    * 레거시 프로젝트에 있던 서비스를 MSA 기반 전시 프로젝트로 이관
+
+- dates: 2019.07 ~ 2020.01
+  title: 동영상 배치 개편
+  description: | # this will include new lines to allow paragraphs
+    * 카테고리 번호 별로 페이지가 나눠져 있어 카테고리 구조 개편 시마다 대응해 모든 페이지 수정 하던 것을 하나의 공통 페이지로 합친 작업
+    * 레거시 프로젝트에 있던 서비스를 MSA 기반 전시 프로젝트로 이관
