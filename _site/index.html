@@ -69,7 +69,7 @@ Spring Boot로 백엔드 개발을 하고 있습니다. <br />
   <li>주기적으로 개편되는 사항에 대해 대응하는 팀원들의 리소스 낭비를 막을 수 있는 구조 개발 및 수정</li>
   <li>레거시 프로젝트를 줄여 유지보수성 개선</li>
   <li>모니터링에 적극 참여하고 장애 대응용 어플리케이션을 개발하여 이슈로 인한 손실을 최소화</li>
-  <li>레거시 배치 대비 시간당 100배 이상의 영상 업로드 처리하는 배치 서비스 개발 및 운영</li>
+  <li>레거시 배치 대비 일 처리량 70배 이상의 영상 업로드 하는 배치 서비스 개발 및 운영</li>
 </ul>
 </div>
 </div>
@@ -110,7 +110,7 @@ Spring Boot로 백엔드 개발을 하고 있습니다. <br />
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 id="project_title">
       할인모음가 코드 추가<p class="text-muted">2021.02 ~ 2021.03</p></h4><ul>
   <li>십일번가 인입 시 인입 채널에 따라 적절한 할인율 제공하기 위한 작업 진행</li>
-  <li>할인율 관련 필드를 전시 프로젝트에 추가</li>
+  <li>할인율 관련 필드를 전시 프로젝트들에 추가</li>
   <li>전시 서비스 플랫폼에 파편화 되어 있던 정보를 모아 접근자 정보를 객체화</li>
 </ul>
 
@@ -120,9 +120,9 @@ Spring Boot로 백엔드 개발을 하고 있습니다. <br />
   <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"></div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 id="project_title">
       대카테고리 페이지 개편<p class="text-muted">2020.09 ~ 2021.01</p></h4><ul>
-  <li>카테고리 번호 별로 페이지가 나눠져 있어 카테고리 구조 개편 시마다 대응해 모든 페이지 수정 하던 것을 하나의 공통 페이지로 합친 작업</li>
+  <li>카테고리 번호 별로 페이지가 나눠져 있어 카테고리 구조 개편 시마다 대응해 모든 페이지 수정 하던 것을 하나의 공통 페이지로 합치기 위한 프로젝트</li>
   <li>레거시 프로젝트에 있던 서비스를 MSA 기반 전시 프로젝트로 이관</li>
-  <li>사용자에게 불필요한 정보가 담긴 URL을 감추기 위해 Preload 개념 도입(차후 기능이 확대 되어 모바일 전반에 사용)</li>
+  <li>사용자에게 불필요한 정보가 담긴 URL을 감추기 위해 MW용 Preload 개념 도입(차후 기능이 확대 되어 MW 전반에 사용)</li>
 </ul>
 
   </div>
@@ -131,8 +131,10 @@ Spring Boot로 백엔드 개발을 하고 있습니다. <br />
   <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"></div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 id="project_title">
       PC 개편<p class="text-muted">2020.06 ~ 2020.08</p></h4><ul>
-  <li>카테고리 번호 별로 페이지가 나눠져 있어 카테고리 구조 개편 시마다 대응해 모든 페이지 수정 하던 것을 하나의 공통 페이지로 합친 작업</li>
+  <li>사용자의 사용성, 접근성을 개선하고하기 위해 십일번가 PC 페이지를 리뉴얼한 프로젝트</li>
   <li>레거시 프로젝트에 있던 서비스를 MSA 기반 전시 프로젝트로 이관</li>
+  <li>Mobile과 요구사항이 다른 PC 전용 코드 개발 및 API 개발</li>
+  <li>일평균 상품 CTR 약 3.6배, 경유 거래액 6배 이상 증가</li>
 </ul>
 
   </div>
@@ -140,9 +142,11 @@ Spring Boot로 백엔드 개발을 하고 있습니다. <br />
   <div class="row clearfix layout layout-left">
   <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"></div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 id="project_title">
-      G타입<p class="text-muted">2020.02 ~ 2020.06</p></h4><ul>
-  <li>카테고리 번호 별로 페이지가 나눠져 있어 카테고리 구조 개편 시마다 대응해 모든 페이지 수정 하던 것을 하나의 공통 페이지로 합친 작업</li>
-  <li>레거시 프로젝트에 있던 서비스를 MSA 기반 전시 프로젝트로 이관</li>
+      인기 기획전 모듈 개발<p class="text-muted">2020.02 ~ 2020.06</p></h4><ul>
+  <li>매월 11일마다 하는 월간 십일절 대응을 용이하게 하기 위해 배너 이미지 없이도 운영 가능한 기획전 모듈 개발</li>
+  <li>배너 이미지를 대체하기 위한 색상 세트 운영을 자동화</li>
+  <li>부하 큰 타 팀의 API 부담을 덜기 위해 호출 대상 중 캐시 안 된 대상만 필터링해 요청하는 코드 개발</li>
+  <li>경유 거래액 최대 9배 증가</li>
 </ul>
 
   </div>
@@ -150,9 +154,10 @@ Spring Boot로 백엔드 개발을 하고 있습니다. <br />
   <div class="row clearfix layout layout-left">
   <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"></div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 id="project_title">
-      동영상 배치 개편<p class="text-muted">2019.07 ~ 2020.01</p></h4><ul>
-  <li>카테고리 번호 별로 페이지가 나눠져 있어 카테고리 구조 개편 시마다 대응해 모든 페이지 수정 하던 것을 하나의 공통 페이지로 합친 작업</li>
-  <li>레거시 프로젝트에 있던 서비스를 MSA 기반 전시 프로젝트로 이관</li>
+      동영상 트랜스코딩 배치 개편<p class="text-muted">2019.07 ~ 2020.01</p></h4><ul>
+  <li>동영상 트랜스코딩을 요청하는 배치를 레거시에서 Spring Batch로 이관한 프로젝트</li>
+  <li>팀 내 첫 Spring Batch, JPA 도입</li>
+  <li>처리 성능 약 20% 향상, 현재 19년 대비 일 처리량 약 70배 커버</li>
 </ul>
 
   </div>
