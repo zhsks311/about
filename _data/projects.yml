@@ -44,3 +44,24 @@
     * 동영상 트랜스코딩을 요청하는 배치를 레거시에서 Spring Batch로 이관한 프로젝트
     * 팀 내 첫 Spring Batch, JPA 도입
     * 처리 성능 약 20% 향상, 현재 19년 대비 일 처리량 약 70배 커버
+
+- dates: 2018.07 ~
+  company: 삼성전자
+  title: 데이터 시각화 시스템
+  description: | # this will include new lines to allow paragraphs
+    * 데이터 분석가가 만든 이상 감지 통계를 프로그램에 적용하여, 이슈로 의심되는 반도체 데이터를 보여주는 어플리케이션
+    * 프로그램 유지/보수 및 신제품에 대한 통계 적용개발
+    * 인덱싱 개념을 도입해 일부 통계에 대해 처리 시간 20배 개선
+
+- dates: 2018.05 ~ 2018.06
+  title: 데이터 자동 적재 배치 개선
+  description: | # this will include new lines to allow paragraphs
+    * DataLake에 적재된 데이터를 확인하고 자체 데이터베이스에 입력하는 배치
+    * 구조 제안 및 개발
+
+- dates: 2018.03
+  title: PackageMap ETL Batch
+  description: | # this will include new lines to allow paragraphs
+    * Dram 테스트 공정의 데이터를 요구사항에 맞게 가공하여 저장하는 배치 개발.
+    * 속도와 구조 개선을 위해 기존 배치 참고하여 새 배치 개발
+    * 필요 없게 된 과정을 제거하여 평균 추출 시간 1/3 단축
