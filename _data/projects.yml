@@ -2,9 +2,8 @@
   company: 십일번가
   title: 아마존 스토어 전시 서비스 개발 및 개선
   description: | # this will include new lines to allow paragraphs
-    * 아마존 상품 전시를 위한 API 개발
-    * 전시 프레임워크에 기존 코드보다 DDD를 적극 반영한 새로운 구조 적용
-    * 아마존 상품 동영상 재생 기능 개발
+    * 아마존 상품 전시를 위한 API 개발(시즌템 추천, 베스트리뷰, 카테고리 페이지, 아마존 동영상 제공 등)
+    * 전시 프레임워크에 DDD를 반영한 새로운 구조 적용
     * 성능 개선을 위해 페이징, 비동기 호출 등 적용
     * 아마존 리뷰를 위한 공통 코드 추가
 
@@ -20,10 +19,10 @@
   description: | # this will include new lines to allow paragraphs
     * 레거시 프로젝트에 있던 서비스를 MSA 기반 전시 프로젝트로 이관
     * 레거시 개발 시 성능이 좋지 못해 설치한 장치를 모두 제거(배치, HTML GEN)
-    * FE에 SPA 구조를 적용하고 사용자에게 불필요한 정보가 담긴 URL을 감추기 위해 MW용 Preload 개념 도입(차후 기능이 확대 되어 MW 전반에 사용)
+    * SPA 구조를 적용한 FE팀에 사용자에게 불필요한 정보가 담긴 URL을 감추기 위해 MW용 Preload 개념 도입(차후 기능이 확대 되어 MW 전반에 사용)
 
 - dates: 2020.06 ~ 2020.08
-  title: PC 개편
+  title: PC 메인 페이지 리뉴얼
   description: | # this will include new lines to allow paragraphs
     * 사용자의 사용성, 접근성을 개선하기 위해 십일번가 PC 페이지를 리뉴얼한 프로젝트
     * 레거시 프로젝트에 있던 서비스를 MSA 기반 전시 프로젝트로 이관
