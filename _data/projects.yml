@@ -18,8 +18,8 @@
   title: 대카테고리 페이지 개편
   description: | # this will include new lines to allow paragraphs
     * 레거시 프로젝트에 있던 서비스를 MSA 기반 전시 프로젝트로 이관
-    * 레거시 개발 시 성능이 좋지 못해 설치한 장치를 모두 제거(배치, HTML GEN)
-    * SPA 구조를 적용한 FE팀에 사용자에게 불필요한 정보가 담긴 URL을 감추기 위해 MW용 Preload 개념 도입(차후 기능이 확대 되어 MW 전반에 사용)
+    * 레거시 개발 시 성능이 좋지 못해 설치한 장치를 모두 제거(배치, 정적파일 생성기)
+    * SPA 구조를 적용한 FE팀에 사용자에게 불필요한 정보가 담긴 URL을 감추기 위해 모바일웹용 Preload 개념 도입(차후 기능이 확대 되어 모바일웹 전반에 사용)
 
 - dates: 2020.06 ~ 2020.08
   title: PC 메인 페이지 리뉴얼
