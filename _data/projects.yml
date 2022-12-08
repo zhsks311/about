@@ -41,7 +41,7 @@
   title: 동영상 트랜스코딩 배치 개편
   description: | # this will include new lines to allow paragraphs
     * 동영상 트랜스코딩을 요청하는 배치를 레거시에서 Spring Batch로 이관한 프로젝트
-    * 팀 내 첫 Spring Batch, JPA 도입
+    * 팀 내 첫 Spring Batch 도입
     * 처리 성능 약 20% 향상, 현재 19년 대비 일 처리량 약 70배 커버
 
 - dates: 2018.07 ~
