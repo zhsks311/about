@@ -1,0 +1,5 @@
+<div class="container question-container">
+  <h3>{{ site.question_title | default: "Question" }}</h3>
+  {% for experience in site.data.question %} {% include {{ experience.layout |
+  default: 'question_top' | append: ".html" }} item=experience %} {% endfor %}
+</div>

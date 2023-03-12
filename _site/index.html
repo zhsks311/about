@@ -66,7 +66,7 @@ Spring Boot로 백엔드 개발을 하고 있습니다. <br />
 </ul>
 <h4 id="contributions">기여</h4>
       <ul>
-  <li>주기적으로 개편되는 사항에 대해 대응하는 팀원들의 리소스 낭비를 막을 수 있는 구조 개발 및 수정</li>
+  <li>주기적인 개편에 따른 개발단 변경 사항 대응에 리소스가 덜 투입 되도록 구조 개선</li>
   <li>레거시 프로젝트를 줄여 유지보수성 개선</li>
   <li>모니터링에 적극 참여하고 장애 대응용 어플리케이션을 개발하여 이슈로 인한 손실을 최소화</li>
   <li>레거시 배치 대비 일 처리량 70배 이상의 영상 업로드 하는 배치 서비스 개발 및 운영</li>
@@ -96,8 +96,8 @@ Spring Boot로 백엔드 개발을 하고 있습니다. <br />
   <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4 id="company">십일번가</h4></div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 id="project_title">
       아마존 스토어 전시 서비스 개발 및 개선<p class="text-muted">2021.02 ~</p></h4><ul>
-  <li>아마존 상품 전시를 위한 API 개발</li>
-  <li>전시 프레임워크에 기존 코드보다 DDD를 적극 반영한 새로운 구조 적용</li>
+  <li>아마존 상품 전시를 위한 API 개발(시즌템 추천, 베스트리뷰, 카테고리 페이지, 아마존 동영상 제공 등)</li>
+  <li>전시 프레임워크에 DDD를 반영한 새로운 구조 적용</li>
   <li>성능 개선을 위해 페이징, 비동기 호출 등 적용</li>
   <li>아마존 리뷰를 위한 공통 코드 추가</li>
 </ul>
@@ -110,7 +110,7 @@ Spring Boot로 백엔드 개발을 하고 있습니다. <br />
       할인모음가 코드 추가<p class="text-muted">2021.02 ~ 2021.03</p></h4><ul>
   <li>십일번가 인입 시 인입 채널에 따라 적절한 할인율 제공하기 위한 작업 진행</li>
   <li>할인율 관련 필드를 전시 프로젝트들에 추가</li>
-  <li>전시 서비스 플랫폼에 파편화 되어 있던 접근자 정보를 모아 객체화</li>
+  <li>전시 서비스 플랫폼에 파편화 되어 있던 앱버전, 사용자 정보 등의 접근자 정보를 모아 객체화</li>
 </ul>
 
   </div>
@@ -120,8 +120,8 @@ Spring Boot로 백엔드 개발을 하고 있습니다. <br />
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 id="project_title">
       대카테고리 페이지 개편<p class="text-muted">2020.09 ~ 2021.01</p></h4><ul>
   <li>레거시 프로젝트에 있던 서비스를 MSA 기반 전시 프로젝트로 이관</li>
-  <li>레거시 개발 시 성능이 좋지 못해 설치한 장치를 모두 제거(배치, HTML GEN)</li>
-  <li>FE에 SPA 구조를 적용하고 사용자에게 불필요한 정보가 담긴 URL을 감추기 위해 MW용 Preload 개념 도입(차후 기능이 확대 되어 MW 전반에 사용)</li>
+  <li>레거시 개발 시 성능이 좋지 못해 설치한 장치를 모두 제거(배치, 정적파일 생성기)</li>
+  <li>첫 화면을 변경하기 쉽도록 모바일웹용 Preload 개념 도입. 모바일웹 오픈 시 제일 먼저 프론트엔드에 전달되는 정적 파일로 탭 정보, 푸터 등의 정보를 전달.(차후 기능이 확대 되어 모바일웹 전반에 사용)</li>
 </ul>
 
   </div>
@@ -129,7 +129,7 @@ Spring Boot로 백엔드 개발을 하고 있습니다. <br />
   <div class="row clearfix layout layout-left">
   <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"></div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 id="project_title">
-      PC 개편<p class="text-muted">2020.06 ~ 2020.08</p></h4><ul>
+      PC 메인 페이지 리뉴얼<p class="text-muted">2020.06 ~ 2020.08</p></h4><ul>
   <li>사용자의 사용성, 접근성을 개선하기 위해 십일번가 PC 페이지를 리뉴얼한 프로젝트</li>
   <li>레거시 프로젝트에 있던 서비스를 MSA 기반 전시 프로젝트로 이관</li>
   <li>Mobile과 요구사항이 다른 PC 전용 코드 개발 및 API 개발</li>
@@ -155,7 +155,7 @@ Spring Boot로 백엔드 개발을 하고 있습니다. <br />
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 id="project_title">
       동영상 트랜스코딩 배치 개편<p class="text-muted">2019.07 ~ 2020.01</p></h4><ul>
   <li>동영상 트랜스코딩을 요청하는 배치를 레거시에서 Spring Batch로 이관한 프로젝트</li>
-  <li>팀 내 첫 Spring Batch, JPA 도입</li>
+  <li>팀 내 첫 Spring Batch 도입</li>
   <li>처리 성능 약 20% 향상, 현재 19년 대비 일 처리량 약 70배 커버</li>
 </ul>
 
@@ -255,6 +255,30 @@ Spring Boot로 백엔드 개발을 하고 있습니다. <br />
 </div>
 
   
+</div>
+<div class="container question-container">
+  <h3>Question</h3>
+   <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 class="question_content">업무에서 반복적으로 발생하는 문제를 해결하기 위해 자동화했거나, 기존과 다른 방식으로 문제를 해결한 사례를 하나만 작성해 주세요.</p>
+    <!-- <p>업무에서 반복적으로 발생하는 문제를 해결하기 위해 자동화했거나, 기존과 다른 방식으로 문제를 해결한 사례를 하나만 작성해 주세요.</p>
+  --><p class="answer_content"> <p>ㅇ</p>
+</p>
+    <!-- <p>ㅇ</p>
+ --></div>
+</div>
+  <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><h4 class="question_content">최근 개발한 코드 중 기억에 남는 사례를 하나만 작성해 주세요</p>
+    <!-- <p>최근 개발한 코드 중 기억에 남는 사례를 하나만 작성해 주세요</p>
+  --><p class="answer_content"> <ul>
+  <li>asdf</li>
+</ul>
+</p>
+    <!-- <ul>
+  <li>asdf</li>
+</ul>
+ --></div>
+</div>
+ 
 </div>
 </div>
     </main><div class="container footer-container">

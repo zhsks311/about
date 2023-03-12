@@ -1,0 +1,11 @@
+<div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+    {%- if include.item.question -%}
+    <h4 class="question_content">{{ include.item.question }}</p>
+    <!-- {{ include.item.question | strip | markdownify }}  -->
+    {%- endif -%} {%- if include.item.answer -%}
+    <p class="answer_content"> {{ include.item.answer | strip | markdownify}}</p>
+    <!-- {{ include.item.answer | strip | markdownify }} -->
+    {%- endif -%}
+  </div>
+</div>

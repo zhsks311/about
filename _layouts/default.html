@@ -36,6 +36,9 @@
                 {%- include patents.html -%}
             {%- endif -%}
 
+            {%- if site.data.question.size > 0 -%}
+                {%- include question.html -%}
+            {%- endif -%}
         </div>
     </main>
 
