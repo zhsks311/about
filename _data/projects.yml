@@ -1,10 +1,15 @@
-- dates: 2021.02 ~
+- dates: 2022.07 ~ 2022.08, 2023.01 ~ 2023.02
   company: 십일번가
+  title: 명품 버티컬 서비스
+  description: | # this will include new lines to allow paragraphs
+    * 명품 관련 개인화 페이지 개발(최근 본 상품, 찜한 상품, 스토어 등)
+    * 처음으로 팀내에서 규모있는 프로젝트를 관리
+
+- dates: 2021.02 ~ 2022.03
   title: 아마존 스토어 전시 서비스 개발 및 개선
   description: | # this will include new lines to allow paragraphs
     * 아마존 상품 전시를 위한 API 개발(시즌템 추천, 베스트리뷰, 카테고리 페이지, 아마존 동영상 제공 등)
     * 전시 프레임워크에 DDD를 반영한 새로운 구조 적용
-    * 성능 개선을 위해 페이징, 비동기 호출 등 적용
     * 아마존 리뷰를 위한 공통 코드 추가
 
 - dates: 2021.02 ~ 2021.03
@@ -41,7 +46,7 @@
   title: 동영상 트랜스코딩 배치 개편
   description: | # this will include new lines to allow paragraphs
     * 동영상 트랜스코딩을 요청하는 배치를 레거시에서 Spring Batch로 이관한 프로젝트
-    * 팀 내 첫 Spring Batch 도입
+    * 팀 내 첫 Spring Batch, JPA 도입
     * 처리 성능 약 20% 향상, 현재 19년 대비 일 처리량 약 70배 커버
 
 - dates: 2018.07 ~
