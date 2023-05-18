@@ -4,6 +4,11 @@
   description: | # this will include new lines to allow paragraphs
     * 명품 관련 개인화 페이지 개발(최근 본 상품, 찜한 상품, 스토어 등)
 
+- dates: 2022.07 ~ 2022.08, 2023.01 ~ 2023.02
+  title: 명품 버티컬 서비스
+  description: | # this will include new lines to allow paragraphs
+    * 명품 관련 개인화 페이지 개발(최근 본 상품, 찜한 상품, 스토어 등)
+
 - dates: 2021.02 ~ 2022.03
   title: 아마존 스토어 전시 서비스 개발 및 개선
   description: | # this will include new lines to allow paragraphs
@@ -11,12 +16,6 @@
     * 전시 프레임워크에 DDD를 반영한 새로운 구조 적용
     * 다양한 데이터소스에서 데이터를 받아 도메인으로 유지하기 위한 방법을 고민
     * 아마존 리뷰를 위한 공통 코드 추가
-
-- dates: 2021.02 ~ 2021.03
-  title: 할인모음가 코드 추가
-  description: | # this will include new lines to allow paragraphs
-    * 십일번가 인입 시 인입 채널에 따라 적절한 할인율 제공하기 위한 작업 진행
-    * 할인율 관련 필드를 전시 프로젝트들에 추가
     * 전시 서비스 플랫폼에 파편화 되어 있던 앱버전, 사용자 정보 등의 접근자 정보를 모아 객체화
 
 - dates: 2020.09 ~ 2021.01
@@ -33,14 +32,6 @@
     * 레거시 프로젝트에 있던 서비스를 MSA 기반 전시 프로젝트로 이관
     * Mobile과 요구사항이 다른 PC 전용 코드 개발 및 API 개발
     * 일평균 상품 CTR 약 3.6배, 경유 거래액 6배 이상 증가
-
-- dates: 2020.02 ~ 2020.06
-  title: 인기 기획전 모듈 개발
-  description: | # this will include new lines to allow paragraphs
-    * 매월 11일마다 하는 월간 십일절 대응을 용이하게 하기 위해 배너 이미지 없이도 운영 가능한 기획전 모듈 개발
-    * 배너 이미지를 대체하기 위한 색상 세트 운영을 자동화
-    * 부하 큰 타 팀의 API 부담을 덜기 위해 호출 대상 중 캐시 안 된 대상만 필터링해 요청하는 코드 개발
-    * 경유 거래액 최대 9배 증가
 
 - dates: 2019.07 ~ 2020.01
   title: 동영상 트랜스코딩 배치 개편

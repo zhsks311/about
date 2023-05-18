@@ -1,20 +1,13 @@
 - layout: left
   name: Backend
   description: | # this will include new lines to allow paragraphs
-    * Java
-    * Spring Boot, Spring Batch, Spring Cloud
-    * JPA, Hibernate,  Caffeine (in-memory cache)
-    * Junit4/5, Mockito
-    * Gradle
-    * IntelliJ, Visual Studio Code
+    * Java, Spring Boot, Spring Batch
 - layout: left
   name: DevOps
   description: | # this will include new lines to allow paragraphs
-    * MySQL, PostgreSQL, Oracle SQL
-    * Jenkins, Jarvis, AWS Code Deploy
-    * S3, EC2
-    * Tomcat, Linux Centos
-    * Elasticsearch, Logstash, Kibana
+    * RDB
+    * Jenkins, AWS Code Deploy
+    * ELK
 - layout: left
   name: Windows
   description: | # this will include new lines to allow paragraphs
